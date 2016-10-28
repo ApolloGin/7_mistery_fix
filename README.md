@@ -10,12 +10,14 @@ Run tests.py `Python3.5 tests.py`.
 
 you will see something like this
 
-> Python3.5 tests.py
-> ....
-> ----------------------------------------------------------------------
-> Ran 4 tests in 0.000s
-> 
-> OK
+```
+Python3.5 tests.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+```
 
 If you got different result, then quadratic_equation.py have some mistakes.
 

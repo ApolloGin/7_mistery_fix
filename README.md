@@ -1,5 +1,28 @@
 # 7_mistery_fix
-Скрипт решает квадратное уравнение. Изначально скрипт находил корни уравнения,
-а потом сравнивал дискриминант с нулем для вывода необходимого количества
-корней. Для исправления скрипта было установлено условие на дискриминант и
-в зависимости от этого рассчитываются корни.
+
+## Synopsis
+
+Script helps you to solve quadratic equation.
+
+## Tests
+
+Run tests.py `Python3.5 tests.py`.
+
+you will see something like this
+
+> Python3.5 tests.py
+> ....
+> ----------------------------------------------------------------------
+> Ran 4 tests in 0.000s
+> 
+> OK
+
+If you got different result, then quadratic_equation.py have some mistakes.
+
+## Module functions
+
+Module has one function which exactly solve equation.
+
+ - get_roots(a, b, c)
+
+This function returns tuple with two roots. If function has only one root another root will be `None`. And so on if function has no real roots it returns (None, None).
